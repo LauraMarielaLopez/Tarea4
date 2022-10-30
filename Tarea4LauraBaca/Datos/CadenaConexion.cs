@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Datos
 {
-    internal class CadenaConexion
+    public static class CadenaConexion
     {
+        public static string Cadena = "Data Source=Localhost; Initial Catalog=mitarea; User ID=root; Password= ";
     }
 }

@@ -4,6 +4,126 @@
     "C:\\Users\\laura\\OneDrive\\Escritorio\\TAREA4\\Tarea4\\Tarea4LauraBaca\\Vista\\Vista.csproj": {}
   },
   "projects": {
+    "C:\\Users\\laura\\OneDrive\\Escritorio\\TAREA4\\Tarea4\\Tarea4LauraBaca\\Datos\\Datos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\laura\\OneDrive\\Escritorio\\TAREA4\\Tarea4\\Tarea4LauraBaca\\Datos\\Datos.csproj",
+        "projectName": "Datos",
+        "projectPath": "C:\\Users\\laura\\OneDrive\\Escritorio\\TAREA4\\Tarea4\\Tarea4LauraBaca\\Datos\\Datos.csproj",
+        "packagesPath": "C:\\Users\\laura\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\laura\\OneDrive\\Escritorio\\TAREA4\\Tarea4\\Tarea4LauraBaca\\Datos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\laura\\OneDrive\\Escritorio\\TAREA4\\Tarea4\\Tarea4LauraBaca\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\laura\\OneDrive\\Escritorio\\TAREA4\\Tarea4\\Tarea4LauraBaca\\Entidades\\Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\laura\\OneDrive\\Escritorio\\TAREA4\\Tarea4\\Tarea4LauraBaca\\Entidades\\Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\laura\\OneDrive\\Escritorio\\TAREA4\\Tarea4\\Tarea4LauraBaca\\Entidades\\Entidades.csproj",
+        "projectName": "Entidades",
+        "projectPath": "C:\\Users\\laura\\OneDrive\\Escritorio\\TAREA4\\Tarea4\\Tarea4LauraBaca\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\laura\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\laura\\OneDrive\\Escritorio\\TAREA4\\Tarea4\\Tarea4LauraBaca\\Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\laura\\OneDrive\\Escritorio\\TAREA4\\Tarea4\\Tarea4LauraBaca\\Vista\\Vista.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +147,11 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\laura\\OneDrive\\Escritorio\\TAREA4\\Tarea4\\Tarea4LauraBaca\\Datos\\Datos.csproj": {
+                "projectPath": "C:\\Users\\laura\\OneDrive\\Escritorio\\TAREA4\\Tarea4\\Tarea4LauraBaca\\Datos\\Datos.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
